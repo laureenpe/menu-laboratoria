@@ -1,0 +1,40 @@
+/*MEDIA QUERIE
+Cuando la pantalla sea min-width 535px y max 824px haremos que cambien toda la class col, para que tengan un width 100% al body le cambiaremos color,
+tipografia, y background, ademas el color del borde de nuestra imagen.
+*/
+
+@media (min-width: 535px) and (max-width: 824px) {
+    ul{
+        background-color:	#505050;
+        border: solid white;
+        display: block;     
+        
+    }
+    li{
+        border-bottom: solid 1px white;
+        padding: 20px 20px;
+
+}
+    body {
+		padding-top:80px;
+	}
+    
+}
+    
+
+/*Pantalla 200px y max 534px*/
+@media (min-width: 200px) and (max-width: 534px) {
+   
+    ul{
+        display: block;
+        background-color:	#505050;
+        border: solid white;
+    }
+    body {
+		padding-top:80px;
+        font-family: 'Raleway Dots', cursive;
+
+	}
+    
+
+    

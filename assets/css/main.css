@@ -1,0 +1,46 @@
+/*NAVBAR*/
+.flex-box{
+    display: flex;
+    justify-content: center;
+}
+
+
+li{
+ list-style-type: none;
+ border-right: solid 1px black;
+ padding: 20px 20px;
+
+}
+/*quitarle al último elemento el borde*/
+li:last-child{
+    border: none;
+}
+
+a{
+ text-decoration: none;
+  padding: 20px 40px;
+  font-weight: 700;
+
+
+}
+a:hover{
+    background: palevioletred;
+    color: yellow;
+    cursor: pointer;
+}
+ul{
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+    background: pink;
+
+}
+
+nav{
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0%;
+
+}
