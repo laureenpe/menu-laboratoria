@@ -4,3 +4,11 @@ margin: 0;
 padding: 0;
 color: white;
 }
+nav{
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0%;
+
+}

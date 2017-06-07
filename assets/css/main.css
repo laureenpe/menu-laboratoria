@@ -5,7 +5,7 @@
 }
 
 
-li{
+.first li{
  list-style-type: none;
  border-right: solid 1px black;
  padding: 20px 20px;
@@ -16,14 +16,14 @@ li:last-child{
     border: none;
 }
 
-a{
+.first a{
  text-decoration: none;
   padding: 20px 40px;
   font-weight: 700;
 
 
 }
-a:hover{
+.first a:hover{
     background: palevioletred;
     color: yellow;
     cursor: pointer;
@@ -36,11 +36,47 @@ ul{
 
 }
 
-nav{
-    margin: 0 auto;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0%;
 
+
+
+/*RESPONSIVE*/
+.responsive{
+  background-color: gray;
+    width: 100%;
+  height: auto;
+
+}
+.responsive ul li{
+  width: 100%;
+  padding: 5px 0;
+  border-bottom: solid black;
+}
+.responsive ul{
+  list-style: none;
+  margin-left: -40px;
+  flex-direction: column;
+  align-items: center;
+    justify-content: flex-start;
+
+}
+
+.responsive ul li a{
+	cursor: pointer;
+    padding: 3px 50px;
+    text-decoration: none;
+}
+.responsive a:hover{
+  color: yellow;
+  background-color: pink;
+}
+#menu{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+.hide{
+  display: none;
 }
